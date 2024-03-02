@@ -580,7 +580,7 @@ function files(index) {
     return data.split("\n")[index];
 }
 
-const frameCount = 565;
+const frameCount = 525;
 
 const images = [];
 const imageSeq = {
@@ -601,7 +601,7 @@ gsap.to(imageSeq, {
         scrub: 0.15,
         trigger: `#page>canvas`,
         start: `top top`,
-        end: `1800% top`,
+        end: `1700% top`,
         scroller: `#main`,
     },
     onUpdate: render,
@@ -641,7 +641,7 @@ ScrollTrigger.create({
     markers: false,
     scroller: `#main`,
     start: `top top`,
-    end: `1800% top`,
+    end: `1700% top`,
 });
 
 
@@ -729,10 +729,10 @@ gsap.to("#page7", {
     }
 })
 
-gsap.to("#page8", {
+gsap.to("#page9", {
     scrollTrigger:
     {
-        trigger: `#page8`,
+        trigger: `#page9`,
         start: `top top`,
         end: `bottom top`,
         markers: false,

@@ -13,8 +13,8 @@
     <div class="wrapper">
         <div id="main" class="relative text-[0.9rem]">
 
-            <div style="background: linear-gradient(70deg, #000, #343434);">
-                <div id="page" class="h-[50vh] w-full relative mb-52">
+            <div style="background: linear-gradient(70deg, #000, #343434);" class="overflow-hidden">
+                <div id="page" class="h-[100vh] w-full relative">
                     <canvas id="canvas" class="max-w-full max-h-screen mx-auto relative z-40"></canvas>
                 </div>
 
@@ -175,19 +175,24 @@
                     </div>
                 </div>
 
-                <!-- <div id="page8" class="pageoverlay h-screen w-full bg-blue-300 relative z-50"></div> -->
+                <div id="page8" class="pageoverlay h-screen w-full bg-blue-300 relative z-50"></div>
 
+                
+                <div id="page9" class="page h-screen w-full border-2 border-red-600 relative z-[100]">
+                    <h1>Hello World</h1>
+                </div>
+                
             </div>
-
+            
             <div class="page h-screen w-full border-2 border-red-600 relative z-[100]">
                 <h1>Hello World</h1>
             </div>
             
         </div>
     </div>
-    <div class="page h-screen w-full border-2 border-red-600 absolute z-[100]">
+    <!-- <div class="page h-screen w-full border-2 border-red-600 absolute z-[100]">
         <h1>Hello World</h1>
-    </div>
+    </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
