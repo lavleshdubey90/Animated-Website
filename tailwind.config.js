@@ -15,7 +15,8 @@ module.exports = {
       },
 
       animation:{
-        "infinite-text": "infinite-text 24s linear infinite"
+        "infinite-text": "infinite-text 24s linear infinite",
+        "infinite-images": "slideRightToLeft 10s linear infinite;"
       }
     },
   },
