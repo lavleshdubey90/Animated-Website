@@ -1,5 +1,5 @@
 # Animated Website
-[In Development]
+[Work In Progress...]
 
 Here is the preview 👇
 
