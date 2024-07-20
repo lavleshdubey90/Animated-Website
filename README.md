@@ -5,4 +5,4 @@ Live Preview => https://lavlesh-animated-website.netlify.app/
 
 
 
-[Currently, we are working on responsiveness]
+[I am working on it's responsiveness]
